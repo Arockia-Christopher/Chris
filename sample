@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<string.h>
+ 
+int main()
+{
+    char str[] = "ABCDXYZ123";
+    char *ps = strchr(str,'D');
+    puts(ps);
+    ++ps;
+    puts(ps);
+    *(ps+3) = 0;
+    puts(ps);
+    return 0;
+}
