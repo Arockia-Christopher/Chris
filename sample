@@ -7,7 +7,6 @@ int main()
     char *ps = strchr(str,'D');
     puts(ps);
     ++ps;
-    puts(ps);
     *(ps+3) = 0;
     puts(ps);
     return 0;
